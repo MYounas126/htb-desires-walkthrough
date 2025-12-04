@@ -1,6 +1,8 @@
 # Desire - HackTheBox Challenge Walkthrough
 
-A comprehensive walkthrough of the **Desire** web challenge from HackTheBox, demonstrating how to chain a logic flaw with a Zip Slip vulnerability to bypass authentication and achieve admin access.
+> **A complete exploitation guide for the Desire web challenge, showcasing how to chain a race condition logic flaw to bypass authentication and gain admin access.**
+
+This repository contains detailed analysis, proof-of-concept scripts, and the original challenge source code for the Desire challenge on HackTheBox. Learn how a simple ordering mistake in session creation combined with an unpatched dependency can lead to complete authentication bypass.
 
 **Category:** Web | **Difficulty:** Easy (arguably Medium)
 
