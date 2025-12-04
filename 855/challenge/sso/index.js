@@ -24,8 +24,6 @@ db.run(
     }
   },
 );
-
-
 app.post("/register", (req, res) => {
   const { username, password } = req.body;
 
